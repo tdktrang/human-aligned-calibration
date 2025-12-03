@@ -1,0 +1,22 @@
+{
+  "task": "cities",
+  "difficulty": "Hard",
+  "n_train": 1946,
+  "n_test": 926,
+  "train_accuracy": 0.7728674203494348,
+  "train_auc": 0.8238883566469392,
+  "test_accuracy": 0.7516198704103672,
+  "test_auc": 0.828531644034352,
+  "best_params": {
+    "C": 10,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "best_cv_auc": 0.8109241749527237,
+  "features": [
+    "b_p",
+    "r2_p",
+    "disagreement",
+    "final_confidence"
+  ]
+}
